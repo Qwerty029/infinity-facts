@@ -1,78 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Infinity Facts - Science, Space & More</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #fff;
-            color: #000;
-            margin: 0;
-            padding: 20px;
-            transition: background 0.3s, color 0.3s;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-        }
-        .toggle-btn {
-            background: #000;
-            color: #fff;
-            padding: 10px;
-            border: none;
-            cursor: pointer;
-            margin-bottom: 20px;
-        }
-        .dark-mode {
-            background-color: #111;
-            color: #fff;
-        }
-        .article {
-            padding: 15px;
-            border-bottom: 1px solid #ddd;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Infinity Facts - Science, Space & More</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      color: #000;
+      margin: 0;
+      padding: 20px;
+      transition: background 0.3s, color 0.3s;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+    }
+    .toggle-btn {
+      background: #000;
+      color: #fff;
+      padding: 10px 15px;
+      border: none;
+      cursor: pointer;
+      margin-bottom: 20px;
+      border-radius: 5px;
+    }
+    .dark-mode {
+      background-color: #121212;
+      color: #e0e0e0;
+    }
+    h1, h2 {
+      margin-top: 0;
+    }
+    .article {
+      padding: 20px 0;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #ccc;
+    }
+    .article:last-child {
+      border-bottom: none;
+    }
+    .article img {
+      max-width: 100%;
+      border-radius: 5px;
+      margin-bottom: 15px;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding-top: 10px;
+      border-top: 1px solid #ccc;
+      font-size: 0.9em;
+    }
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <button class="toggle-btn" onclick="toggleMode()">Toggle Dark Mode</button>
-        <h1>Infinity Facts</h1>
-        <p>Welcome to Infinity Facts! Your ultimate source for space, science, and mind-blowing facts.</p>
-        
-        <div class="article">
-            <h2>The Universe is Expanding!</h2>
-            <p>Scientists have discovered that the universe is continuously expanding at an accelerating rate!</p>
-            <a href="#">Read More</a>
-        </div>
-        
-        <div class="article">
-            <h2>Black Holes Can Evaporate?</h2>
-            <p>Stephen Hawking proposed that black holes slowly lose mass and energy through Hawking Radiation.</p>
-            <a href="#">Read More</a>
-        </div>
-        
-        <div class="article">
-            <h2>Quantum Particles Can Be in Two Places at Once</h2>
-            <p>Quantum superposition allows particles to exist in multiple states simultaneously.</p>
-            <a href="#">Read More</a>
-        </div>
-        
-        <div style="margin-top: 20px; text-align: center;">
-            <!-- Google AdSense Placeholder -->
-            <p>Ad space (Google AdSense goes here)</p>
-        </div>
-        
-        <footer style="margin-top: 20px; text-align: center;">
-            <p>&copy; 2025 Infinity Facts | <a href="#">Privacy Policy</a></p>
-        </footer>
+  <div class="container">
+    <button class="toggle-btn" onclick="toggleMode()">Toggle Dark Mode</button>
+    <h1>Infinity Facts</h1>
+    <p>
+      Welcome to Infinity Facts – your ultimate source for in-depth science,
+      space, physics, and mind-blowing facts. Our articles are written to be
+      evergreen and comprehensive, giving you all the details in one place.
+    </p>
+    
+    <!-- Article 1: The Universe is Expanding! -->
+    <div class="article">
+      <h2>The Universe is Expanding!</h2>
+      <img src="https://source.unsplash.com/900x600/?universe,space" alt="Expanding Universe" />
+      <p>
+        Ever since Edwin Hubble's groundbreaking observations, scientists have
+        understood that our universe is continuously expanding. This expansion
+        means that galaxies are moving away from each other, and the fabric of
+        space itself is stretching over time.
+      </p>
+      <p>
+        One of the most intriguing aspects of this discovery is the role of
+        dark energy. Dark energy is believed to be the mysterious force driving
+        the accelerating expansion of the universe. Despite extensive research,
+        its exact nature remains one of the biggest puzzles in modern
+        astrophysics.
+      </p>
+      <p>
+        The implications of an expanding universe are profound. They affect
+        theories about the origin, evolution, and eventual fate of the cosmos,
+        posing questions that scientists continue to explore.
+      </p>
     </div>
     
-    <script>
-        function toggleMode() {
-            document.body.classList.toggle("dark-mode");
-        }
-    </script>
+    <!-- Article 2: Black Holes Can Evaporate -->
+    <div class="article">
+      <h2>Black Holes Can Evaporate</h2>
+      <img src="https://source.unsplash.com/900x600/?blackhole,space" alt="Black Hole" />
+      <p>
+        Black holes have long been thought of as eternal cosmic monsters that
+        devour everything in their path. However, Stephen Hawking's discovery of
+        what is now known as Hawking Radiation challenged this view.
+      </p>
+      <p>
+        According to Hawking, quantum effects near a black hole’s event horizon
+        allow it to emit radiation. This radiation causes the black hole to lose
+        mass gradually over time, eventually leading to its evaporation.
+      </p>
+      <p>
+        Although the process is extremely slow—taking far longer than the age of
+        the universe for most black holes—it has major implications for our
+        understanding of gravity, quantum mechanics, and the life cycle of
+        celestial objects.
+      </p>
+    </div>
+    
+    <!-- Article 3: Quantum Particles: In Two Places at Once -->
+    <div class="article">
+      <h2>Quantum Particles: In Two Places at Once</h2>
+      <img src="https://source.unsplash.com/900x600/?quantum,science" alt="Quantum Mechanics" />
+      <p>
+        Quantum mechanics often defies our everyday understanding of how the
+        world works. One such puzzling phenomenon is superposition, where
+        quantum particles like electrons can exist in multiple states or even
+        locations at the same time.
+      </p>
+      <p>
+        This idea was famously illustrated in the double-slit experiment,
+        demonstrating that particles can behave like both particles and waves.
+        Until an observation is made, the particle exists in a combination of
+        all possible states.
+      </p>
+      <p>
+        The principle of superposition is not only fascinating—it’s also
+        fundamental to emerging technologies such as quantum computing, where
+        it allows for processing speeds far beyond those of traditional
+        computers.
+      </p>
+    </div>
+      <p>Ad space (Google AdSense goes here)</p>
+    </div>
+    
+    <footer>
+      <p>
+        &copy; 2025 Infinity Facts | <a href="#">Privacy Policy</a>
+      </p>
+    </footer>
+  </div>
+  
+  <script>
+    function toggleMode() {
+      document.body.classList.toggle("dark-mode");
+    }
+  </script>
 </body>
 </html>
